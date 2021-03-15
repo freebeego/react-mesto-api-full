@@ -1,0 +1,33 @@
+.profile__cover {
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__cover {
+    margin: 0 30px 0 0;
+  }
+
+  .profile__cover:before {
+    content: '';
+    background-color: black;
+    background-image: url('../../../images/pen.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+
+  .profile__cover:hover:before {
+    opacity: .8;
+    cursor: pointer;
+  }
+}

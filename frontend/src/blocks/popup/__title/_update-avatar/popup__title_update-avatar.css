@@ -1,0 +1,6 @@
+@media screen and (min-width: 620px) {
+  .popup__title_update-avatar {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

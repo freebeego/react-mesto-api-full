@@ -1,0 +1,15 @@
+.ident__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  margin: 40px 30px 40px;
+  text-align: center;
+}
+
+@media screen and (min-width: 620px) {
+  .ident__title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+}

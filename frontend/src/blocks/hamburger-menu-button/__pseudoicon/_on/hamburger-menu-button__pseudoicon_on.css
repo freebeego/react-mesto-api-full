@@ -1,0 +1,12 @@
+.hamburger-menu-button__pseudoicon_on {
+  transform: rotate(45deg);
+}
+
+.hamburger-menu-button__pseudoicon_on::before {
+  top: 0;
+  transform: rotate(0);
+}
+.hamburger-menu-button__pseudoicon_on::after {
+  top: -3px;
+  transform: rotate(90deg);
+}

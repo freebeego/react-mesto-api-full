@@ -1,0 +1,33 @@
+.profile__button-edit {
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+  background-color: black;
+  background-image: url('../../../images/pen.svg');
+  background-size: 7.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto auto auto 0;
+  padding: 0;
+  transition: opacity .2s;
+}
+
+.profile__button-edit:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__button-edit {
+    width: 24px;
+    height: 24px;
+    background-size: 10px;
+    margin: auto 0 6px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__button-edit:hover {
+    opacity: .6;
+    cursor: pointer;
+  }
+}

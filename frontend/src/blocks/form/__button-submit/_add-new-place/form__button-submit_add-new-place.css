@@ -1,0 +1,13 @@
+.form__button-submit_add-new-place {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 620px) {
+  .form__button-submit_add-new-place {
+    margin-top: 32px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

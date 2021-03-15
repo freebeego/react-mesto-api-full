@@ -1,0 +1,8 @@
+.form__button-submit_error {
+  background-color: red;
+  transition: background-color .5s;
+}
+
+.form__button-submit_error:hover {
+  background-color: red;
+}

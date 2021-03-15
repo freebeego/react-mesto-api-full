@@ -1,0 +1,15 @@
+.profile__info {
+  margin: 14px auto 0;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__info {
+    margin: 18px auto 25px 0;
+  }
+}

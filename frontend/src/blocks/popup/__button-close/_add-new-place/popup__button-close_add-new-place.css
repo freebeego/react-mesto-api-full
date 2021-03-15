@@ -1,0 +1,9 @@
+@media screen and (min-width: 620px) {
+  .popup__button-close_add-new-place {
+    width: 46px;
+    height: 46px;
+    background-size: 41px;
+    right: -42px;
+    top: -42px;
+  }
+}

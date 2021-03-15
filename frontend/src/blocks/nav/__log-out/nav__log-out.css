@@ -1,0 +1,22 @@
+.nav__log-out {
+  background-color: black;
+  line-height: 22px;
+  color: #A9A9A9;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 56px;
+  margin: 0 auto 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__log-out {
+    margin: 0 0 0 24px;
+  }
+
+  .nav__log-out:hover {
+    opacity: .6;
+    transition: opacity .3s;
+    cursor: pointer;
+  }
+}

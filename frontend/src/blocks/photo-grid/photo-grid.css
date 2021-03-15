@@ -1,0 +1,11 @@
+.photo-grid {
+  margin-top: 36px;
+  display: flex;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    margin-bottom: 66px;
+  }
+}

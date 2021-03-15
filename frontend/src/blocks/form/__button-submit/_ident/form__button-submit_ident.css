@@ -1,0 +1,14 @@
+.form__button-submit_ident {
+  margin-top: 140px;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .form__button-submit_ident:hover {
+    background-color: white;
+    opacity: 0.85;
+    transition: opacity .3s;
+    cursor: pointer;
+  }
+}

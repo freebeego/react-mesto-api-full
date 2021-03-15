@@ -1,0 +1,22 @@
+.nav {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .6s ease-out;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    border-bottom: none;
+    justify-content: flex-end;
+    overflow: visible;
+    position: relative;
+    top: 51px;
+  }
+}

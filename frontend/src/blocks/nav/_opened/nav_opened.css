@@ -1,0 +1,9 @@
+.nav_opened {
+  max-height: 145px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_opened {
+    max-height: 0;
+  }
+}

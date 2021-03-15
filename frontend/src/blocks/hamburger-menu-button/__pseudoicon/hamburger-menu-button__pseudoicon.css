@@ -1,0 +1,26 @@
+.hamburger-menu-button__pseudoicon,
+.hamburger-menu-button__pseudoicon::before,
+.hamburger-menu-button__pseudoicon::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transition-duration: .25s;
+}
+
+.hamburger-menu-button__pseudoicon::before {
+  content: '';
+  top: -9px;
+}
+
+.hamburger-menu-button__pseudoicon::after {
+  content: '';
+  top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu-button__pseudoicon {
+    display: none;
+  }
+}
