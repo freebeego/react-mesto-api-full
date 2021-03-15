@@ -4,6 +4,6 @@
 
 ### Веб-сервис для хранения и обмена фотографиями.
 
-[https://freebeego.students.nomoredomains.monster]()
+[https://freebeego.students.nomoredomains.monster](https://freebeego.students.nomoredomains.monster)
 
 A запись DNS: 178.154.212.142
