@@ -70,12 +70,12 @@ const EditProfilePopup = ({
         name="name"
         type="text"
         placeholder="Имя"
-        maxLength={40}
+        maxLength={30}
         value={fieldsData.name || ''}
         onChange={handleChange}
         isRequired={true}
         validError={fieldsError.name}
-        pattern="^.{2,40}$"
+        pattern="^.{2,30}$"
         errorMessage="Имя должно состоять как минимум из двух символов."
       />
 
@@ -84,12 +84,12 @@ const EditProfilePopup = ({
         name="about"
         type="text"
         placeholder="О себе"
-        maxLength={200}
+        maxLength={30}
         value={fieldsData.about || ''}
         onChange={handleChange}
         isRequired={true}
         validError={fieldsError.about}
-        pattern="^.{2,200}$"
+        pattern="^.{2,30}$"
         errorMessage="Нужно ввести как минимум два символа."
       />
 
