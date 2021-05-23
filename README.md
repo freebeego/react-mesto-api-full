@@ -6,11 +6,9 @@
 
 <br>
 
-[https://freebeego.students.nomoredomains.monster](https://freebeego.students.nomoredomains.monster)
+[https://mesto.listen-me.ru](https://mesto.listen-me.ru)
 
-A запись DNS: 178.154.212.142
-
-Backend находиться по адресу: api.freebeego.students.nomoredomains.monster
+Backend находиться по адресу: https://api.mesto.listen-me.ru
 
 <br><br>
 
