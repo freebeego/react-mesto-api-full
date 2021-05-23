@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "react-scripts build",
-    "deploy": "scp -r ./build/* freebeego@178.154.212.142:/home/freebeego/mesto/frontend"
+    "deploy": "scp -r ./build/* webServer:/home/user/projects/mesto/front-end"
   },
   "eslintConfig": {
     "extends": [

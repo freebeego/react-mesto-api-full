@@ -1,6 +1,8 @@
+import { apiUrl } from './data';
+
 class Api {
   constructor() {
-    this.url = 'https://api.freebeego.students.nomoredomains.monster/';
+    this.url = apiUrl;
   }
 
   _fetch(path, queryParams = {}) {
